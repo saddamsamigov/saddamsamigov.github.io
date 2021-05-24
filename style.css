@@ -1,0 +1,251 @@
+body, h1, h2, h3, ul, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#header {
+	background-color: #35424a;
+	border-bottom: 7px solid coral;
+}
+
+#header h1 {
+	color: white;
+    font-family: 'Roboto', sans-serif;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+#header .logo {
+	color: coral;
+}
+
+.navbar {
+	float: right;
+}
+
+.navbar li {
+	display: inline;
+}
+.navbar li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 25px 15px;
+	display: inline-block;
+}
+
+.navbar li a:hover {
+	color: coral;
+}
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+#banner {
+	height: 60vh;
+	background-image: url(selin1.jpg);
+	background-position: center -50px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+
+#banner h1 {
+   text-shadow: 0 0 5px #000;
+   font-size: 56px;
+   margin-bottom: 25px;
+   padding-top: 285px;
+}
+
+#newsletter {
+	background-color: #35424a;
+	color: white; 
+	font-family: sans-serif;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+#newsletter .left {
+	float: left;
+}
+#newsletter .right {
+	float: right;
+}
+#newsletter input {
+	padding: 5px;
+}
+
+.button {
+	padding: 7px 15px;
+	border: 3px solid red;
+	background-color: coral;
+	color: white;
+	margin-left: 15px;
+	border-radius: 7px;
+
+}
+
+
+.button:hover {
+	cursor: pointer;
+	color: red;
+	background-color: white;
+}
+
+
+
+#courses {
+	padding: 30px 0;
+}
+
+
+.clr {
+	clear: both;
+}
+
+#footer {
+	padding: 50px 0;
+	text-align: center;
+    background-color: coral;
+	color: white;
+	margin-top: 50px;
+}
+
+.mycontainer {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border-radius: 8px;
+	border: 3px solid coral;
+}
+
+.card {
+	width: 270px;
+	height: 280px;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 3px solid coral;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 17px 38px;
+	padding: 5px 25px;
+	background-image: url(chuqur.jpg);
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+
+}
+
+ h5 {
+ 	text-align: center;
+ 	color: #fff;
+ 	font-size: 18px;
+ 	font-family: sans-serif;
+ 	text-shadow: 0 0 5px #000;
+ }
+
+.card1 {
+	background-image: url(chuqur.jpg);
+}
+.card2 {
+	background-image: url(yasakelma.jpg);
+}
+.card3 {
+	background-image: url(selin.jpg);
+}
+.card4 {
+	background-image: url(ichkarida.jpg);
+}
+.card5 {
+	background-image: url(istanbul.jpg);
+}
+.card6 {
+	background-image: url(canyaman.jpg);
+}
+.card7 {
+	background-image: url(karadeniz.jpg);
+	background-position: left center;
+}
+.card8 {
+	background-image: url(mucize.jpg);
+}
+.card17 {
+	background-image: url(gunesh.jpg);
+}
+.card18 {
+	background-image: url(fazilet.jpg);
+	background-position: bottom;
+}
+.card19 {
+	background-image: url(kemal.jpg);
+}
+.card20 {
+	background-image: url(canyaman2.jpg);
+}
+
+.card:hover {
+	transform: translateY(-15px);
+}
+
+.text-hh {
+	text-align: center;
+	color: coral;
+	font-size: 185%;
+	margin: 15px 0;
+}
+
+.card9 {
+	background-image: url(films/spasatelimalibu.jpg);
+}
+
+.card10 {
+	background-image: url(films/boys.jpg);
+
+}
+.card11 {
+	background-image: url(films/klark.jpg);
+	background-position: right center;
+}
+.card12 {
+	background-image: url(films/grownups.jpg);
+	background-position: center top;
+}
+.card13 {
+	background-image: url(films/skala.jpg);
+}
+
+.card14 {
+	background-image: url(films/kissing.jpg);
+}
+.card15 {
+	background-image: url(films/svidanie.jpg);
+	background-position: center top;
+
+}
+.card16 {
+	background-image: url(films/mentalist1.jpg);
+}
+.card21 {
+	background-image: url(films/fast.jpg);
+	background-position: 50% 86%;
+}
+.card22 {
+	background-image: url(films/taxi5.jpg);
+}
+.card23 {
+	background-image: url(films/mehanik.jpg);
+	background-position: 50% 70%;
+}
+.card24 {
+	background-image: url(films/home.jpg);
+	background-position: 50% 22%;
+}
+
+
+
+
